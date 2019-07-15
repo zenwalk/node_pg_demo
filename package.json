@@ -1,0 +1,22 @@
+{
+  "name": "pg_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "marky": "^1.2.1",
+    "node-schedule": "^1.3.2",
+    "pg": "^7.11.0",
+    "pino": "^5.12.6",
+    "pino-pretty": "^3.2.0",
+    "rxjs": "^6.5.2"
+  }
+}
